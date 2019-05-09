@@ -1,6 +1,6 @@
 var plugins = [{
       plugin: require('/Users/sulloyd/Camercode/eshop/uko/node_modules/gatsby-plugin-canonical-urls/gatsby-ssr'),
-      options: {"plugins":[],"siteUrl":"https://gcn.netlify.com"},
+      options: {"plugins":[],"siteUrl":"https://relaxed-colden-d2984f.netlify.com/"},
     },{
       plugin: require('/Users/sulloyd/Camercode/eshop/uko/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
@@ -18,7 +18,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/sulloyd/Camercode/eshop/uko/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"GCN","short_name":"GCN App","description":"A starter template to build amazing static websites with Gatsby, Contentful and Netlify","start_url":"/","background_color":"#e9e9e9","theme_color":"#121212","display":"minimal-ui","icon":"static/logos/logo-512.png"},
+      options: {"plugins":[],"name":"GCN","short_name":"GCN App","description":"A starter template to build amazing static websites with Gatsby, Contentful and Netlify","start_url":"/","background_color":"#e9e9e9","theme_color":"#F0AE0A","display":"minimal-ui","icon":"static/logos/logo-512.png"},
     },{
       plugin: require('/Users/sulloyd/Camercode/eshop/uko/node_modules/gatsby-plugin-feed/gatsby-ssr'),
       options: {"plugins":[],"query":"\n    {\n      site {\n        siteMetadata {\n          rssMetadata {\n            site_url\n            feed_url\n            title\n            description\n            image_url\n            author\n            copyright\n          }\n        }\n      }\n    }\n  ","feeds":[{"query":"\n              {\n            allContentfulPost(limit: 1000, sort: {fields: [publishDate], order: DESC}) {\n               edges {\n                 node {\n                   title\n                   slug\n                   publishDate(formatString: \"MMMM DD, YYYY\")\n                   body {\n                     childMarkdownRemark {\n                       html\n                       excerpt(pruneLength: 80)\n                     }\n                   }\n                 }\n               }\n             }\n           }\n      ","output":"/rss.xml"}]},
