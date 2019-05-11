@@ -148,5 +148,10 @@
         "componentChunkName": "component---src-templates-tag-js",
         "jsonName": "tag-play-6ea",
         "path": "/tag/play/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "uko-analytics-6d1",
+        "path": "/uko-analytics/"
     }
 ]

@@ -3,13 +3,13 @@ module.exports = {
   siteTitleAlt: 'UKO for the family', // This allows an alternative site title for SEO schema.
   publisher: 'Pandora X', // Organization name used for SEO schema
   siteDescription:
-    'Eat Healthy, Eat Local, Eat UKO FOOD',
+    'Eat Healthy, Eat Localy, Eat UKO FOOD',
   siteUrl: 'https://relaxed-colden-d2984f.netlify.com/', // Site domain. Do not include a trailing slash! If you wish to use a path prefix you can read more about that here: https://www.gatsbyjs.org/docs/path-prefix/
   postsPerHomePage: 4, // Number of posts shown on the 1st page of of the index.js template (home page)
   postsPerPage: 6, // Number of posts shown on paginated pages
-  author: 'GCN User', // Author for RSS author segment and SEO schema
-  authorUrl: 'https://gcn.netlify.com/about/', // URL used for author and publisher schema, can be a social profile or other personal site
-  userTwitter: '@twitter', // Change for Twitter Cards
+  author: 'Pandora X', // Author for RSS author segment and SEO schema
+  authorUrl: 'https://pandoraretail.com', // URL used for author and publisher schema, can be a social profile or other personal site
+  userTwitter: '@ukofood', // Change for Twitter Cards
   shortTitle: 'UKO App', // Used for App manifest e.g. Mobile Home Screen
   shareImage: '/logos/share.jpg', // Open Graph Default Share Image. 1200x1200 is recommended
   shareImageWidth: 900, // Change to the width of your default share image

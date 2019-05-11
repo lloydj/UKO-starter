@@ -64,10 +64,17 @@ const Menu = () => {
               Contact
             </Link>
           </li>
+          <li>
+            <Link to="/analytics/" activeStyle={activeLinkStyle}>
+              Analytics
+            </Link>
+          </li>
+
+
+
         </ul>
       </Nav>
     </Header>
   )
 }
-
 export default Menu

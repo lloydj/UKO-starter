@@ -76,7 +76,7 @@ const Card = ({
         <Img fluid={heroImage.fluid} backgroundColor={'#eeeeee'} />
         <Title>{title}</Title>
         <Date>{publishDate}</Date>
-        <ReadingTime>{timeToRead} min read</ReadingTime>
+        <ReadingTime>{timeToRead} min de lecture</ReadingTime>
         <Excerpt
           dangerouslySetInnerHTML={{
             __html: body.childMarkdownRemark.excerpt,
