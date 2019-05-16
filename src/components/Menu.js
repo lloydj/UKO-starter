@@ -30,7 +30,7 @@ const Nav = styled.nav`
 
   a {
     text-decoration: none;
-    color: DarkGray;
+    color: Black;
     font-weight: 600;
     transition: all 0.2s;
     border-bottom: 2px solid ${props => props.theme.colors.base};
@@ -48,6 +48,11 @@ const Menu = () => {
   return (
     <Header>
       <Nav>
+      <img
+            src="/logos/Ukolog.png"
+            style={{ height: '41px', width: '135px' }}
+            alt="Powered by Contentful"
+          />
         <ul>
           <li>
             <Link to="/" activeStyle={activeLinkStyle}>
@@ -55,13 +60,8 @@ const Menu = () => {
             </Link>
           </li>
           <li>
-            <Link to="/about/" activeStyle={activeLinkStyle}>
-              About
-            </Link>
-          </li>
-          <li>
-            <Link to="/contact/" activeStyle={activeLinkStyle}>
-              Contact
+            <Link to="/cooperative/" activeStyle={activeLinkStyle}>
+              Coop
             </Link>
           </li>
           <li>
@@ -69,7 +69,11 @@ const Menu = () => {
               Analytics
             </Link>
           </li>
-
+          <li>
+            <Link to="/about/" activeStyle={activeLinkStyle}>
+              Contact
+            </Link>
+          </li>
 
 
         </ul>
@@ -78,3 +82,4 @@ const Menu = () => {
   )
 }
 export default Menu
+//

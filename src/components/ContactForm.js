@@ -22,7 +22,7 @@ const Form = styled.form`
     border: none;
     outline: none;
     background: ${props => props.theme.colors.tertiary};
-    color: ${props => props.theme.colors.base};
+    color: black;
     border-radius: 2px;
     padding: 1em;
     &::-webkit-input-placeholder {
@@ -213,11 +213,12 @@ class ContactForm extends React.Component {
         <Name
           name="name"
           type="text"
-          placeholder="Full Name"
+          placeholder="Nom et prénom"
           value={this.state.name}
           onChange={this.handleInputChange}
           required
         />
+
         <Email
           name="email"
           type="email"
@@ -234,7 +235,7 @@ class ContactForm extends React.Component {
           onChange={this.handleInputChange}
           required
         />
-        <Submit name="submit" type="submit" value="Send" />
+        <Submit name="submit" type="submit" value="Connecter" />
 
         <Modal visible={this.state.showModal}>
           <p>

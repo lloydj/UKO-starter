@@ -40,6 +40,11 @@
         "path": "/american-doggo/"
     },
     {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "analytics-292",
+        "path": "/analytics/"
+    },
+    {
         "componentChunkName": "component---src-templates-post-js",
         "jsonName": "beach-day-c41",
         "path": "/beach-day/"
@@ -116,13 +121,13 @@
     },
     {
         "componentChunkName": "component---src-templates-tag-js",
-        "jsonName": "tag-cute-ac4",
-        "path": "/tag/cute/"
+        "jsonName": "tag-analitycs-167",
+        "path": "/tag/analitycs/"
     },
     {
         "componentChunkName": "component---src-templates-tag-js",
-        "jsonName": "tag-cute-2-283",
-        "path": "/tag/cute/2/"
+        "jsonName": "tag-analitycs-2-88a",
+        "path": "/tag/analitycs/2/"
     },
     {
         "componentChunkName": "component---src-templates-tag-js",
@@ -148,10 +153,5 @@
         "componentChunkName": "component---src-templates-tag-js",
         "jsonName": "tag-play-6ea",
         "path": "/tag/play/"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "uko-analytics-6d1",
-        "path": "/uko-analytics/"
     }
 ]

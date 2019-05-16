@@ -19,4 +19,4 @@ module.exports = {
   themeColor: '#F0AE0A', // Used for Offline Manifest
   copyright: 'Copyright © 2018 Pandora X', // Copyright string for the RSS feed
 }
- 
+  

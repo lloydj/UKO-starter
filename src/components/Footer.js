@@ -46,62 +46,27 @@ const Footer = () => (
     <List>
       <Item>
         <a
-          href="https://www.contentful.com/"
+          href="/contact"
           rel="nofollow noopener noreferrer"
           target="_blank"
         >
           <img
-            src="/logos/logo-512.png"
-            style={{ width: '100px' }}
+            src="/logos/Connect.png"
+            style={{width: '170px' }}
             alt="Powered by Contentful"
           />
         </a>
       </Item>
       <Item>
+
+        {' '} Suivez-nous sur IG {' '}
         <a
-          href="https://www.contentful.com/"
-          rel="nofollow noopener noreferrer"
-          target="_blank"
-        >
-          <img
-            src="/logos/logo-512.png"
-            style={{ width: '100px' }}
-            alt="Powered by Contentful"
-          />
-        </a>
-      </Item>
-      <Item>
-        <a
-          href="https://www.contentful.com/"
-          rel="nofollow noopener noreferrer"
-          target="_blank"
-        >
-          <img
-            src="/logos/logo-512.png"
-            style={{ width: '100px' }}
-            alt="Powered by Contentful"
-          />
-        </a>
-      </Item>
-      <Item>
-       
-        {' '} Follow us {' '}
-        <a
-          href="https://www.facebook.com"
+          href="https://www.instagram.com/ukofood/"
           target="_blank"
           rel="noopener noreferrer"
         >
           @ukofood
         </a>
-        {' '} a {' '}
-        <a
-          href="https:pandoraretail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Pandora X
-        </a>
-        {' '} company {' '}
       </Item>
     </List>
   </Wrapper>
