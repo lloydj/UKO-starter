@@ -66,7 +66,7 @@ const Card = ({
   publishDate,
   body,
   body: {
-    childMarkdownRemark: { timeToRead },
+    childMarkdownRemark: { timeToRead }
   },
   ...props
 }) => {

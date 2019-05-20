@@ -15,6 +15,11 @@
         "path": "/3/"
     },
     {
+        "componentChunkName": "component---src-templates-index-js",
+        "jsonName": "4-b5f",
+        "path": "/4/"
+    },
+    {
         "componentChunkName": "component---src-pages-404-js",
         "jsonName": "404-html-516",
         "path": "/404.html"
@@ -23,6 +28,11 @@
         "componentChunkName": "component---src-pages-404-js",
         "jsonName": "404-22d",
         "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-js",
+        "jsonName": "africa-article-d50",
+        "path": "/Africa-article/"
     },
     {
         "componentChunkName": "component---src-templates-post-js",
@@ -60,6 +70,11 @@
         "path": "/contact/"
     },
     {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "cooperative-a47",
+        "path": "/cooperative/"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
@@ -83,6 +98,11 @@
         "componentChunkName": "component---src-templates-post-js",
         "jsonName": "looking-up-dca",
         "path": "/looking-up/"
+    },
+    {
+        "componentChunkName": "component---src-templates-post-js",
+        "jsonName": "ok-7d0",
+        "path": "/ok/"
     },
     {
         "componentChunkName": "component---src-templates-post-js",
@@ -115,9 +135,29 @@
         "path": "/sailing-around-the-bay/"
     },
     {
-        "componentChunkName": "component---src-templates-post-js",
-        "jsonName": "snow-dogs-c3f",
-        "path": "/snow-dogs/"
+        "componentChunkName": "component---src-templates-tag-js",
+        "jsonName": "tag-cameroun-2d8",
+        "path": "/tag/Cameroun/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tag-js",
+        "jsonName": "tag-coop-325",
+        "path": "/tag/Coop/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tag-js",
+        "jsonName": "tag-home-cdf",
+        "path": "/tag/Home/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tag-js",
+        "jsonName": "tag-recettes-274",
+        "path": "/tag/Recettes/"
+    },
+    {
+        "componentChunkName": "component---src-templates-tag-js",
+        "jsonName": "tag-africa-d06",
+        "path": "/tag/africa/"
     },
     {
         "componentChunkName": "component---src-templates-tag-js",
@@ -125,33 +165,13 @@
         "path": "/tag/analitycs/"
     },
     {
-        "componentChunkName": "component---src-templates-tag-js",
-        "jsonName": "tag-analitycs-2-88a",
-        "path": "/tag/analitycs/2/"
+        "componentChunkName": "component---src-templates-post-js",
+        "jsonName": "untitled-entry-2019-05-18-at-03-05-17-f08",
+        "path": "/untitled-entry-2019-05-18-at-03-05-17/"
     },
     {
-        "componentChunkName": "component---src-templates-tag-js",
-        "jsonName": "tag-fancy-a81",
-        "path": "/tag/fancy/"
-    },
-    {
-        "componentChunkName": "component---src-templates-tag-js",
-        "jsonName": "tag-fetch-bb9",
-        "path": "/tag/fetch/"
-    },
-    {
-        "componentChunkName": "component---src-templates-tag-js",
-        "jsonName": "tag-fun-3f7",
-        "path": "/tag/fun/"
-    },
-    {
-        "componentChunkName": "component---src-templates-tag-js",
-        "jsonName": "tag-obedient-b64",
-        "path": "/tag/obedient/"
-    },
-    {
-        "componentChunkName": "component---src-templates-tag-js",
-        "jsonName": "tag-play-6ea",
-        "path": "/tag/play/"
+        "componentChunkName": "component---src-templates-post-js",
+        "jsonName": "untitled-entry-2019-05-18-at-03-07-04-eca",
+        "path": "/untitled-entry-2019-05-18-at-03-07-04/"
     }
 ]
