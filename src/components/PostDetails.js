@@ -20,7 +20,7 @@ const ReadingTime = styled.p`
 const PostDetails = props => {
   return (
     <Wrapper>
-      <Date><span role='img'>📅 </span>{props.date}</Date>
+      <Date>📅 {props.date}</Date>
       <span>•</span>
       <ReadingTime>{`⏱️${props.timeToRead} min de lecture `}</ReadingTime>
     </Wrapper>
